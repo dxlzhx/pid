@@ -1,0 +1,12 @@
+{
+	"res_code" : 0,
+	"res_error" : "",
+	"res_body" : {
+		"data" : [
+			{"id":1, "title":"300元提货卡", "price":"291","img":"/images/li2.jpg"},
+			{"id":2, "title":"200元提货卡", "price":"194","img":"/images/li2.jpg"},
+			{"id":3, "title":"100元提货卡", "price":"97","img":"/images/li2.jpg"}
+			
+		]
+	}
+}

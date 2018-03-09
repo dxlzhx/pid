@@ -1,0 +1,28 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, div { margin: 0; padding: 0; box-sizing: border-box; }
+
+fieldset, img { border: none; }
+
+img { vertical-align: top; }
+
+em, i, strong, b { font-style: normal; font-weight: normal; }
+
+ul, ol { list-style: none; }
+
+a { text-decoration: none; color: black; }
+
+.ind { text-indent: 2em; }
+
+.noborder { border: none; }
+
+.nobg { background: none; }
+
+.floatL { float: left; }
+
+.floatR { float: right; }
+
+.main { width: 100%; height: 1056px; }
+.main .banner { width: 1173px; height: 499px; margin: 0 auto; }
+.main .main1 { width: 1173px; height: 557px; margin: 0 auto; }
+.main .main1 .left { float: left; width: 515px; height: 557px; }
+.main .main1 .left a img { margin-top: 8px; }
+.main .main1 .right a img { margin-left: 4px; margin-top: 8px; }

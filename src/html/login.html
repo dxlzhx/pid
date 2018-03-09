@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="../css/footer.css" />
+	<link rel="stylesheet" type="text/css" href="../css/head.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/login.css"/>
+	<script src="../lib/requirejs/require.js" data-main="../js/login"></script>
+</head>
+<body>
+	<div class="header"></div>
+		
+	<div class="login">
+		<div class="login1">
+			<div class="login2">
+				<form class="form">
+					<div class="ra1">
+					<input type="radio" name="ral" class="in1"/>普通会员登录
+					<input type="radio" name="ral" class="in2"/>手机动态密码登录
+					</div>
+					<div class="ra3">
+					<input type="text"  id="txt1" value="" placeholder="用户名/手机/邮箱" /><span id="t1"></span>
+					<input type="text"  id="txt2" value="" placeholder="输入密码" /><span id="t2"></span><br />
+					<input type="checkbox" name="ch" id="ch" value="" />七天内自动登录<a href="#">忘记密码？</a><br />
+					<a href="javascript:void(0)" id="btn">登录</a><br />
+					<p>没有账号？立即注册</p><br />
+					</div>
+					<div class="ra2" style="display: none;">
+					<input type="text"  id="txt1" value="" placeholder="请输入你的手机号" />
+					<input type="text"  id="txt4" value="" placeholder="输入短信验证码" />
+					<button id="btn1">获取短信验证码</button>
+					<button id="btn">登录</button><br />
+					</div>
+					<h4>温馨提示：<br>成功注册会员后，登录后首次完善个人信息，即<br>可获得官网会员20积分</h4>
+				</form>
+			
+			</div>
+		</div>
+	</div>
+	
+	<div class="footer"></div>
+</body>
+</html>
